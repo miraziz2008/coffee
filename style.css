@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 30px 100px;
+    background-color: rgb(97, 26, 26);
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+nav a:hover {
+    padding: 10px 25px 10px 25px;
+    background-color: chocolate;
+    border-radius: 50px;
+}
+
+nav h2 {
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px 70px 100px;
+    background-color: rgb(97, 26, 26);
+    color: white;
+}
+
+header i {
+    font-size: 40px;
+    color: rgb(240, 131, 54);
+    font-weight: 600;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header p{
+    font-size: 20px;
+    color: rgb(223, 212, 191);
+}
+
+header .btn1 {
+    padding: 15px 30px;
+    background-color: rgb(210, 105, 30);
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+}
+
+header .btn2 {
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+main .s1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px 70px 100px;
+}
+
+main .s1 img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+main .s1 h1 {
+    color: chocolate;
+}
+
+main .s1 h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+main .s1 p {
+    font-size: 20px;
+    line-height: 140%;
+}
+
+main .s1 i {
+    margin-right: 20px;
+}
+
+main .s2 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+main .s2 div img {
+    border-radius: 10px;
+}
+
+main .s2 h2 {
+    font-size: 35px;
+}
+
+main .s2 h1 {
+    font-size: 30px;
+    color: chocolate;
+}
+
+main .s3 {
+    padding: 30px 150px 30px 150px;
+}
+
+main .s3 .boss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .s3 h2 {
+    font-size: 35px;
+}
+
+main .s3 h1 {
+    font-size: 30px;
+    color: chocolate;
+}
+
+main .s3 .boss {
+    color: rgb(62, 62, 62);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main .s3 .boss i {
+    font-size: 20px;
+}
+
+main .s3 .boss b {
+    font-size: 20px;
+}
+
+main .s3 .boss input {
+    padding: 15px 350px 15px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+main .s3 .boss textarea {
+    padding: 15px 350px 70px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main .s3 .boss button {
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+}
